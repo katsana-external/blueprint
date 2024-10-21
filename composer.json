@@ -1,7 +1,13 @@
 {
     "name": "laravie/blueprint",
     "description": "API Blueprint documentation generator.",
-    "keywords": ["blueprint", "api", "laravel", "dingo", "docs"],
+    "keywords": [
+        "blueprint",
+        "api",
+        "laravel",
+        "dingo",
+        "docs"
+    ],
     "license": "BSD-3-Clause",
     "authors": [
         {
@@ -11,8 +17,8 @@
     ],
     "require": {
         "php": "^7.3 || ^8.0",
-        "illuminate/support": "^6.0 || ^7.0 || ^8.0",
-        "illuminate/filesystem": "^6.0 || ^7.0 || ^8.0",
+        "illuminate/support": "^6.0 || ^7.0 || ^8.0 || ^9.0",
+        "illuminate/filesystem": "^6.0 || ^7.0 || ^8.0 || ^9.0",
         "doctrine/annotations": "^1.13.2",
         "phpdocumentor/reflection-docblock": "^3.1 || ^4.1 || ^5.0"
     },
